@@ -1,0 +1,4 @@
+Tests: 
+
+"Banging-knee-test": The "Banging-knee-test" can determine if the tumor is rooted in their nose or their eyelid.
+SNOT Test: The SNOT test can be used to determine if the tumor is stage II or stage III. The mucus must be examined under a microscope and the administerer must physically smear the sample around the palm of their hand to feel the consistency. Nothing is required with the newly gained knowledge of consistency. 

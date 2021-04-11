@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Therapy Toolkit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Therapy Toolkit</string>
+    <string name="nav_header_subtitle">support@neurorehabmd.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="filter_menu_action">Filter</string>
+
+    <string name="menu_conditions">Conditions</string>
+    <string name="menu_diagnosis_predictor">Diagnosis Predictor</string>
+    <string name="menu_differential_tests">Differential Tests</string>
+    <string name="condition_title">Condition Title</string>
+    <string name="condition_information">Condition Information</string>
+    <string name="tab_text_1">Details</string>
+    <string name="tab_text_2">Presentations</string>
+    <string name="tab_text_3">Tests</string>
+    <string name="tab_text_4">Pictures</string>
+    <string name="new_condition">New Condition</string>
+</resources>

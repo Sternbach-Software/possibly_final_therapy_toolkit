@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage_conditions"
+            android:icon="@drawable/ic_conditions"
+            android:title="@string/menu_conditions" />
+       <!-- <item
+            android:id="@+id/nav_diagnosis_predictor"
+            android:icon="@drawable/ic_diagnosis_predictor"
+            android:title="@string/menu_diagnosis_predictor" />-->
+       <!-- <item
+            android:id="@+id/nav_differential_tests"
+            android:icon="@drawable/ic_differential_tests"
+            android:title="@string/menu_differential_tests" />-->
+    </group>
+</menu>

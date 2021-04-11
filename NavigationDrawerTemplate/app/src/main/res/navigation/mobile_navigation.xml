@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_homepage_conditions">
+
+    <fragment
+        android:id="@+id/nav_homepage_conditions"
+        android:name="com.example.navigationdrawertemplate.ui.homePageConditions.ConditionsListFragment"
+        android:label="@string/menu_conditions">
+        <action
+            android:id="@+id/action_nav_homepage_conditions_to_conditionPage"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.navigationdrawertemplate.MainActivity"
+        android:label="condition_page"
+        tools:layout="@layout/condition_page">
+    <argument
+        android:name="conditionId"
+        app:argType="integer"
+        android:defaultValue="1">
+
+    </argument>
+    </activity>
+</navigation>
+
+    <!--<fragment
+        android:id="@+id/nav_diagnosis_predictor"
+        android:name="com.example.navigationdrawertemplate.ui.diagnosisPredictor.DiagnosisPredictorFragment"
+        android:label="@string/menu_diagnosis_predictor"/>-->
+
+<!--    <fragment
+        android:id="@+id/nav_differential_tests"
+        android:name="com.example.navigationdrawertemplate.ui.differentialTests.DifferentialTestsFragment"
+        android:label="@string/menu_differential_tests"/>-->
